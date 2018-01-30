@@ -15,6 +15,11 @@ body {
     margin: 0 auto;
     width: 960px;
 }
+
+/*-------------------
+    Header Styling
+-------------------*/
+
 .main-header-wrapper {
 
     height: 80px;
@@ -67,6 +72,10 @@ a {
     text-decoration: none;
 }
 
+/*--------------------------
+    Main Section Styling
+--------------------------*/
+
 .main-content {
     background-color: #ffffff;
     border: 1px solid #dddddd;
@@ -86,18 +95,22 @@ a {
 }
 
 .main-content img {
-    display: inline;
-    float: left;
-    margin: 2%;
+    margin: 20px 10px;
 }
 
 .main-content p {
-    display: inline;
+    display: block;
     float: right;
+    font-size: 14px;
+    line-height: 2;
     margin: 2%;
     width: 60%;
     color: #777777;
 }
+
+/*-------------------
+    Aside Styling
+-------------------*/
 
 .aside-content {
     width: 270px;
@@ -112,11 +125,21 @@ a {
     text-align: center;
 }
 
-footer {
+/*--------------------
+    Footer Styling
+--------------------*/
+
+.clearfix {
     clear: both;
+}
+
+footer {
+
     text-align: center;
     background-color: #666666;
     border-top: 5px solid #4aaaa5;
     width: 100%;
     height: 60px;
+    position: absolute;
+    top: 596px;
 }
