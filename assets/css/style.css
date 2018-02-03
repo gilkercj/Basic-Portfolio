@@ -9,16 +9,21 @@ body {
 
 .body {
     margin: 0 auto;
+    overflow: visible
+}
 
+h1 {
+    font-size: 2em;
+    font-weight: bold;
 }
 .content-wrapper {
     margin: 0 auto;
     width: 960px;
 }
 
-/*-------------------
+/*--------------------
     Header Styling
--------------------*/
+--------------------*/
 
 .main-header-wrapper {
 
@@ -42,7 +47,7 @@ body {
 
 #name {
     margin: 0px 0px;
-    padding: 22px 0px 22px 0px;
+    padding: 24px 0px 24px 0px;
     width: 32%;
     color: #ffffff;
     background-color: #4aaaa5;
@@ -56,20 +61,26 @@ body {
     width: 270px;
     float: right;
     padding: 15px 0px;
-    margin: 0px 20px 0px 0px;
+    margin: 0px 4px 0px 0px;
 }
 
 
 #nav-bar ul li {
     text-align: left;
     display: inline-block;
+    padding: 5px 12px;
+    margin: 15px 0px;
 
-    margin: 0px 10px;
     
 }
 
 a {
     text-decoration: none;
+}
+
+.portfolio-link {
+    border-left: 2px solid #cccccc;
+    border-right: 2px solid #cccccc;
 }
 
 /*--------------------------
@@ -95,6 +106,8 @@ a {
 }
 
 .main-content img {
+    width: 200px;
+    height: 200px;
     margin: 20px 10px;
 }
 
@@ -112,6 +125,12 @@ a {
     Aside Styling
 -------------------*/
 
+h2{
+    font-size: 1.5em;
+    padding: 25px;
+    border-bottom: 2px solid #dddddd;
+}
+
 .aside-content {
     width: 270px;
     float: right;
@@ -124,6 +143,25 @@ a {
 .aside-content h2 {
     text-align: center;
 }
+.aside-content ul {
+    margin: 10px 40px;
+}
+
+.aside-content img {
+    height: 60px;
+    width: 60px;
+    padding: 20px 0px;
+    float: left;
+    overflow: hidden;
+}
+
+#stack-img {
+    height: 54px;
+    width: 54px;
+    position: relative;
+    top: 3.5px;
+    left: 3.5px;
+}
 
 /*--------------------
     Footer Styling
@@ -133,13 +171,62 @@ a {
     clear: both;
 }
 
+/* .footer-content {
+    min-height: 100%;
+} */
+
 footer {
 
     text-align: center;
     background-color: #666666;
     border-top: 5px solid #4aaaa5;
     width: 100%;
-    height: 60px;
+    padding: 22px 0px;
     position: absolute;
-    top: 596px;
+    top: 596.5px;
+}
+
+
+
+.portfolio-image-wrapper {
+    margin: 20px 0px;
+
+}
+
+.portfolio-image-wrapper img {
+    padding: 5px 25px;
+}
+
+#portfolio-footer{
+    position: absolute;
+    top: 1100px;
+}
+
+/*--------------------------
+    contact form styling
+--------------------------*/
+
+.contact-footer {
+    position: absolute;
+    top: 700px;
+    right: 0px;
+}
+/* 
+form p{
+    text-align: left;
+}
+
+form input{
+    float: right;
+    
+    height: 40px;
+    width: 40px;
+
+} */
+
+.button-submit {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 5px 15px;
+    border: 2px solid #cccccc;
 }
